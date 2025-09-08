@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Demo 01 B</title>
+        <style>
+            input
+            {
+                display: block;
+                margin: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1> Week 02: Day 01 Demo 1 b 08 Sep 2025: Form Processing</h1>
+        </header>
+        <main>
+            <!-- action: server URL  method: GET/POST  Defaut: GET-->
+             <!-- server.php is server file where this form will be processed
+              method is GET 
+              GET: Expose information in URL
+                   2000 characters possible only
+              POST: Great option for sensitive info like passwords
+                    No limit of data you can send
+              HTTP protocol
+              -->
+            <form action="server.php" method="GET">
+                <label for="username"> What is Your Name: </label>
+                <input type="text" name="username">
+
+                <label for="userage"> What is your age: </label>
+                <input type="text" name="userage">
+
+                <input type="submit" value ="Submit">
+            </form>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>
