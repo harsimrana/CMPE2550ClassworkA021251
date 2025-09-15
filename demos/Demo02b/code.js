@@ -5,10 +5,22 @@ $(()=>{
     console.log("On page load");
 
     // Bind onclick event to your button
-    $("button").on("click", ()=>{
-        console.log("Button is clicked");
+    $("#b1").on("click", ()=>{
+        console.log("Button b1 is clicked");
 
         MakeAjaxCall('server.php', "GET", {}, "HTML", successB1, errorHandler);
+    });
+
+    // Bind onclick event to your button b2
+    $("#b2").on("click", ()=>{
+        console.log("Button b2 is clicked");
+        let data ={};
+        data['p1Name'] = "Harsimranjot";
+        data.p2Name = "Simran";
+        data.action = "b2";  // To help server identity calls
+
+        // Sending data from client and expecting HTML response
+        MakeAjaxCall('server.php', "GET", data, "HTML", successB1, errorHandler);
     });
 
 
@@ -21,7 +33,7 @@ function successB1(serverData, serverStatus)
     console.log(serverStatus);
     // Show it on actual page
     $("section").html(serverData);
-    
+
 }
 
 // function error handler
