@@ -1,0 +1,6 @@
+[10-Sep-2025 15:55:48 UTC] inside login
+[10-Sep-2025 15:55:48 UTC] inside if 
+[10-Sep-2025 15:55:48 UTC] PHP Warning:  Undefined array key "username" in /home/aulakhha/public_html/1251/2550A02/demos/Demo2a/login.php on line 14
+[10-Sep-2025 15:55:48 UTC] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in /home/aulakhha/public_html/1251/2550A02/demos/Demo2a/login.php on line 14
+[10-Sep-2025 15:55:48 UTC] after if else
+[10-Sep-2025 15:55:48 UTC] PHP Warning:  Undefined array key "item1" in /home/aulakhha/public_html/1251/2550A02/demos/Demo2a/login.php on line 47
