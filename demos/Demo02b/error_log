@@ -1,1 +1,27 @@
 [15-Sep-2025 15:05:25 UTC] Inside server side
+[15-Sep-2025 15:07:32 UTC] Inside server side
+[15-Sep-2025 15:08:42 UTC] Inside server side
+[15-Sep-2025 15:22:41 UTC] Inside server side
+[15-Sep-2025 15:22:43 UTC] Inside server side
+[15-Sep-2025 15:22:44 UTC] Inside server side
+[15-Sep-2025 15:22:45 UTC] Inside server side
+[15-Sep-2025 15:22:46 UTC] Inside server side
+[15-Sep-2025 15:23:48 UTC] Inside server side
+[15-Sep-2025 15:23:59 UTC] Inside server side
+[15-Sep-2025 15:24:33 UTC] Inside server side
+[15-Sep-2025 15:26:24 UTC] Inside server side
+[15-Sep-2025 15:26:27 UTC] Inside server side
+[15-Sep-2025 15:33:10 UTC] Inside server side
+[15-Sep-2025 15:33:13 UTC] Inside server side
+[15-Sep-2025 15:35:18 UTC] Inside server side
+[15-Sep-2025 15:35:18 UTC] Harsimranjot
+[15-Sep-2025 15:38:40 UTC] Inside server side
+[15-Sep-2025 15:40:10 UTC] Inside server side
+[15-Sep-2025 15:40:10 UTC] Harsimranjot
+[15-Sep-2025 15:43:55 UTC] Inside server side
+[15-Sep-2025 15:47:03 UTC] Inside server side
+[15-Sep-2025 15:47:03 UTC] Harsimranjot
+[15-Sep-2025 15:47:03 UTC] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /home/aulakhha/public_html/1251/2550A02/demos/Demo02b/server.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/aulakhha/public_html/1251/2550A02/demos/Demo02b/server.php on line 39

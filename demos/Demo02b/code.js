@@ -24,9 +24,32 @@ $(()=>{
     });
 
 
+    // Bind onclick event to your button b3
+    $("#b3").on("click", ()=>{
+        console.log("Button b3 is clicked");
+        let data ={};
+        data['p1Name'] = "Harsimranjot";
+        data.p2Name = "Simran";
+        data.action = "b3";  // To help server identity calls
+
+        // Sending data from client and expecting JSON response
+        MakeAjaxCall('server.php', "GET", data, "JSON", successB3, errorHandler);
+    });
+
 } );
 
-// Success handler for button 1
+// Success handler for button b3
+function successB3(serverData, serverStatus)
+{
+    console.log(serverData);
+    console.log(serverStatus);
+    // Show it on actual page
+    $("section").html( "Your Name: " + serverData['name']);
+
+}
+
+
+// Success handler for button b1 b2
 function successB1(serverData, serverStatus)
 {
     console.log(serverData);
