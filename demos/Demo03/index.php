@@ -2,7 +2,7 @@
     require_once './libPHP/db.php';
 
     
-
+    error_log("inside index.php");
 ?>
 
 <!DOCTYPE html>
@@ -16,7 +16,25 @@
        <h1> Demo 03: Working with Database</h1>
 
        <div>
-         
+            <?php
+                $myquery = "Select * from titles ";
+
+                error_log($myquery);
+                if($resultset = mysqlQuery( $myquery))
+                {  // We have our result set
+                    error_log("index.php if statement");
+                    echo "Title_Id    | Title  <br>";
+                    while($row = $resultset -> fetch_assoc()) // It will return one row at a time or false if no result left
+                    {
+                        echo  $row['title_id']  ." | ".   $row['title']." <br>";
+                    }
+                }
+                else
+                {
+                    error_log("error else part");
+                    echo $mysql_response;
+                }
+            ?>     
        </div>
     </body>
 </html>
