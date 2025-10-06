@@ -1,0 +1,22 @@
+[24-Sep-2025 15:02:09 UTC] PHP Parse error:  syntax error, unexpected string content "", expecting "-" or identifier or variable or number in /home/aulakhha/public_html/1251/2550A02/demos/Demo03/index.php on line 28
+[24-Sep-2025 15:02:47 UTC] Connection successfully 
+[24-Sep-2025 15:02:47 UTC] inside index.php
+[24-Sep-2025 15:02:47 UTC] Select * from titles 
+[24-Sep-2025 15:02:47 UTC] index.php if statement
+[24-Sep-2025 15:03:26 UTC] Connection successfully 
+[24-Sep-2025 15:03:26 UTC] inside index.php
+[24-Sep-2025 15:03:26 UTC] Select * from titles 
+[24-Sep-2025 15:03:26 UTC] index.php if statement
+[24-Sep-2025 15:03:37 UTC] Connection successfully 
+[24-Sep-2025 15:03:37 UTC] inside index.php
+[24-Sep-2025 15:03:37 UTC] Select * from titles 
+[24-Sep-2025 15:03:37 UTC] index.php if statement
+[24-Sep-2025 15:11:05 UTC] Connection successfully 
+[24-Sep-2025 15:11:05 UTC] inside index.php
+[24-Sep-2025 15:11:05 UTC] Select title_id, title, pricefrom titles 
+[24-Sep-2025 15:11:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'title_id' in 'SELECT' in /home/aulakhha/public_html/1251/2550A02/demos/Demo03/libPHP/db.php:65
+Stack trace:
+#0 /home/aulakhha/public_html/1251/2550A02/demos/Demo03/libPHP/db.php(65): mysqli->query('Select title_id...')
+#1 /home/aulakhha/public_html/1251/2550A02/demos/Demo03/index.php(24): mysqlQuery('Select title_id...')
+#2 {main}
+  thrown in /home/aulakhha/public_html/1251/2550A02/demos/Demo03/libPHP/db.php on line 65
