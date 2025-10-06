@@ -37,6 +37,24 @@
                     error_log("error else part");
                     echo $mysql_response;
                 }
+
+
+                echo "Testing DML query";
+                // Prepare your query 
+                $myquery = "delete from Students ";
+                //$myquery .= " where sid = 1 ";
+
+                //SPECIAL NOTE:
+                // For Delete/update withour where clause it will delete/update everything
+                // Pattern seach 
+                $myquery .= " where sname like '_a%' ";
+                error_log("MyQuery : " . $myquery);
+
+                // Run your query 
+
+                $numberRowsAffected = myDMLQuery($myquery);
+
+                echo "<br>Delete operation has affected $numberRowsAffected rows";
             ?>     
        </div>
     </body>
