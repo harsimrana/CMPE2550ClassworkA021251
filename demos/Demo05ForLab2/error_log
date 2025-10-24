@@ -1,0 +1,24 @@
+[20-Oct-2025 14:31:02 UTC] Inside Login.php
+[20-Oct-2025 14:31:03 UTC] Inside Login.php
+[20-Oct-2025 14:31:17 UTC] Inside Login.php
+[20-Oct-2025 14:31:17 UTC] Inside Main Logic part POST 
+[20-Oct-2025 14:31:28 UTC] Inside Login.php
+[20-Oct-2025 14:33:50 UTC] Inside Login.php
+[20-Oct-2025 14:33:56 UTC] Inside Login.php
+[20-Oct-2025 14:33:56 UTC] Inside Main Logic part POST 
+[20-Oct-2025 14:37:43 UTC] Inside Login.php
+[20-Oct-2025 14:37:57 UTC] Inside Login.php
+[20-Oct-2025 14:38:00 UTC] Inside Login.php
+[20-Oct-2025 14:38:00 UTC] Inside Main Logic part POST 
+[20-Oct-2025 14:38:38 UTC] Inside Login.php
+[20-Oct-2025 14:38:48 UTC] PHP Warning:  Undefined array key "username" in /home/aulakhha/public_html/1251/2550A02/demos/Demo05ForLab2/welcome.php on line 12
+[20-Oct-2025 14:40:55 UTC] Inside Login.php
+[20-Oct-2025 14:40:55 UTC] Inside Main Logic part POST 
+[20-Oct-2025 14:41:02 UTC] Inside Login.php
+[20-Oct-2025 14:42:42 UTC] Inside Login.php
+[20-Oct-2025 14:42:53 UTC] Inside Login.php
+[20-Oct-2025 14:43:40 UTC] Inside Login.php
+[20-Oct-2025 14:44:20 UTC] Inside Login.php
+[20-Oct-2025 14:44:20 UTC] Inside Main Logic part POST 
+[20-Oct-2025 14:56:59 UTC] Before Ency: simran1234
+[20-Oct-2025 14:56:59 UTC] After Ency: $2y$10$E/Xj695RIYexhcZE/RGz/OcrxJDVkaaF0D/ORNETjswAXeE8fRsR2 
