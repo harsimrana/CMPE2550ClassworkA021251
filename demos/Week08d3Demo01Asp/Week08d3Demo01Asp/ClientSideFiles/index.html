@@ -4,6 +4,10 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>ASP Demo 01</title>
+        <!-- Link to jQeury library -->
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.7.1.js"></script>
+        <!-- Link to your own js -->
+        <script src="code.js"></script>
     </head>
     <body>
         <h1>Demo 01 ASP 24.10.2025</h1>
@@ -19,5 +23,18 @@
             <button type="submit" name="submit"> Login </button>
 
         </form>
+
+         <h2> Form Submit by POST</h2>
+        <!-- Submitting my form to a specific end point using post method -->
+        <!-- <form action="https://localhost:7206/loginPagePost" method="POST"> -->
+            <label for="username"> Name</label>
+            <input type="text" name="usernamePost">
+
+            <label for="password"> Password</label>
+            <input type="password" name="passwordPost">
+
+            <button type="submit" name="submitPost"> Login </button>
+
+        <!-- </form> -->
     </body>
 </html>
