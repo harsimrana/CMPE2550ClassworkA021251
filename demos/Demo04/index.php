@@ -41,7 +41,7 @@
 
                 echo "Testing DML query";
                 // Prepare your query 
-                $myquery = "delete from Students ";
+               /* $myquery = "delete from Students ";
                 //$myquery .= " where sid = 1 ";
 
                 //SPECIAL NOTE:
@@ -51,7 +51,16 @@
                 error_log("MyQuery : " . $myquery);
 
                 // Run your query 
-
+                */
+                // TESTING IT with STORED PROCEDURE
+                // SP Defination is here
+                /*
+                    Delete from Students
+                    where sid = StudentId
+                */
+                $studentId= 5;
+                $myquery ="call DeleteStudent($studentId)" ;// Make sure to use ' single quotes around string value
+                
                 $numberRowsAffected = myDMLQuery($myquery);
 
                 echo "<br>Delete operation has affected $numberRowsAffected rows";
