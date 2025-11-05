@@ -25,6 +25,7 @@ namespace Week08d3Demo01Asp
                               .AllowAnyHeader()
                               .SetIsOriginAllowed(ordin => true));
             
+
             // Default end point  
             app.MapGet("/", () => "Hello World!");
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\harsimrana\\source\\repos\\Week08d3Demo01Asp\\Week08d3Demo01Asp\\Week08d3Demo01Asp.csproj": {}
+    "C:\\Users\\harsimrana\\Music\\2550\\CMPE2550ClassworkA021251\\demos\\Week08d3Demo01Asp\\Week08d3Demo01Asp\\Week08d3Demo01Asp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\harsimrana\\source\\repos\\Week08d3Demo01Asp\\Week08d3Demo01Asp\\Week08d3Demo01Asp.csproj": {
+    "C:\\Users\\harsimrana\\Music\\2550\\CMPE2550ClassworkA021251\\demos\\Week08d3Demo01Asp\\Week08d3Demo01Asp\\Week08d3Demo01Asp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\harsimrana\\source\\repos\\Week08d3Demo01Asp\\Week08d3Demo01Asp\\Week08d3Demo01Asp.csproj",
+        "projectUniqueName": "C:\\Users\\harsimrana\\Music\\2550\\CMPE2550ClassworkA021251\\demos\\Week08d3Demo01Asp\\Week08d3Demo01Asp\\Week08d3Demo01Asp.csproj",
         "projectName": "Week08d3Demo01Asp",
-        "projectPath": "C:\\Users\\harsimrana\\source\\repos\\Week08d3Demo01Asp\\Week08d3Demo01Asp\\Week08d3Demo01Asp.csproj",
+        "projectPath": "C:\\Users\\harsimrana\\Music\\2550\\CMPE2550ClassworkA021251\\demos\\Week08d3Demo01Asp\\Week08d3Demo01Asp\\Week08d3Demo01Asp.csproj",
         "packagesPath": "C:\\Users\\harsimrana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\harsimrana\\source\\repos\\Week08d3Demo01Asp\\Week08d3Demo01Asp\\obj\\",
+        "outputPath": "C:\\Users\\harsimrana\\Music\\2550\\CMPE2550ClassworkA021251\\demos\\Week08d3Demo01Asp\\Week08d3Demo01Asp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
