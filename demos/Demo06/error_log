@@ -1,0 +1,6 @@
+[31-Oct-2025 17:13:07 UTC] Connection successfully 
+[31-Oct-2025 17:13:07 UTC] inside index.php
+[31-Oct-2025 17:13:07 UTC] Select title_id, title, price from titles where title like '%B%'
+[31-Oct-2025 17:13:07 UTC] index.php if statement
+[31-Oct-2025 17:13:07 UTC] Before escape thing Har'simranjot
+[31-Oct-2025 17:13:07 UTC] Before escape thing Har\'simranjot
