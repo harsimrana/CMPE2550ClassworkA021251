@@ -1,5 +1,6 @@
 using Microsoft.Data.SqlClient;
 using System.Text.RegularExpressions;
+using System.Transactions;
 
 namespace ASPADODemoProject
 {
@@ -99,6 +100,55 @@ namespace ASPADODemoProject
                 {
                     Console.WriteLine("Error"+ ex.Message);
                 }
+            });
+
+            //26.11.2025: ADO Demo part 2 : DML Operations
+            // End points for manaing delete operation
+            // Make sure to follow REST methods: GET,    POST   , DELETE, PUT
+            // Retrieve, Insert, Delete, Update
+
+            app.MapGet("/DeleteEmployee", () =>
+            {
+                Console.WriteLine("Inside Delete Emp");
+                SqlTransaction transaction;
+                // Trying to get connection information from appsettings.json file 
+                SqlConnection con = new SqlConnection(builder.Configuration.GetConnectionString("DefaultConnection") );
+
+                con.Open();
+
+                // Start a new transaction
+                transaction = con.BeginTransaction();
+                try
+                {
+                    // Prepare our query here
+                    string query = "Delete from students where student_id= @sid";
+
+                    SqlCommand command = new SqlCommand(query, con, transaction);
+
+                    // Hard coded values, cahnge it to value coming from client side
+                    // Binding the parameter with the value
+                    command.Parameters.AddWithValue("@sid", 200350559);
+
+                    // Execute your query
+                    // ExecuteNonQuery() -- return the number of rows affected
+
+                    int rowsAffected = command.ExecuteNonQuery();
+                    // For DML queries [Data manipulation Language]
+
+                    transaction.Commit(); // Save the changes in the DB
+                    Console.WriteLine($" Number of students deleted {rowsAffected}");
+                    return $" Number of students deleted {rowsAffected}";
+
+                }
+                catch (Exception e)
+                {
+                    // Something goes wrong : time to rollback
+                    transaction.Rollback();
+
+                    Console.WriteLine("Error" + e.Message);
+                    return $" Error: Try after sometime or contact Admin";
+                }
+
             });
             app.Run();
         }
