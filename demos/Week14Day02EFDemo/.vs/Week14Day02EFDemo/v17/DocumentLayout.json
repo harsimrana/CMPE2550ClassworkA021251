@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\harsimrana\\source\\repos\\Week14Day02EFDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD403D6-4E73-40DC-870F-9D3FCD317713}|Week14Day02EFDemo\\Week14Day02EFDemo.csproj|c:\\users\\harsimrana\\source\\repos\\week14day02efdemo\\week14day02efdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD403D6-4E73-40DC-870F-9D3FCD317713}|Week14Day02EFDemo\\Week14Day02EFDemo.csproj|solutionrelative:week14day02efdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD403D6-4E73-40DC-870F-9D3FCD317713}|Week14Day02EFDemo\\Week14Day02EFDemo.csproj|c:\\users\\harsimrana\\source\\repos\\week14day02efdemo\\week14day02efdemo\\dbclasstrak\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD403D6-4E73-40DC-870F-9D3FCD317713}|Week14Day02EFDemo\\Week14Day02EFDemo.csproj|solutionrelative:week14day02efdemo\\dbclasstrak\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD403D6-4E73-40DC-870F-9D3FCD317713}|Week14Day02EFDemo\\Week14Day02EFDemo.csproj|c:\\users\\harsimrana\\source\\repos\\week14day02efdemo\\week14day02efdemo\\dbclasstrak\\demouserclasstrakcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD403D6-4E73-40DC-870F-9D3FCD317713}|Week14Day02EFDemo\\Week14Day02EFDemo.csproj|solutionrelative:week14day02efdemo\\dbclasstrak\\demouserclasstrakcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD403D6-4E73-40DC-870F-9D3FCD317713}|Week14Day02EFDemo\\Week14Day02EFDemo.csproj|c:\\users\\harsimrana\\source\\repos\\week14day02efdemo\\week14day02efdemo\\dbclasstrak\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD403D6-4E73-40DC-870F-9D3FCD317713}|Week14Day02EFDemo\\Week14Day02EFDemo.csproj|solutionrelative:week14day02efdemo\\dbclasstrak\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD403D6-4E73-40DC-870F-9D3FCD317713}|Week14Day02EFDemo\\Week14Day02EFDemo.csproj|c:\\users\\harsimrana\\source\\repos\\week14day02efdemo\\week14day02efdemo\\dbclasstrak\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD403D6-4E73-40DC-870F-9D3FCD317713}|Week14Day02EFDemo\\Week14Day02EFDemo.csproj|solutionrelative:week14day02efdemo\\dbclasstrak\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\harsimrana\\source\\repos\\Week14Day02EFDemo\\Week14Day02EFDemo\\DBClassTrak\\Student.cs",
+              "RelativeDocumentMoniker": "Week14Day02EFDemo\\DBClassTrak\\Student.cs",
+              "ToolTip": "C:\\Users\\harsimrana\\source\\repos\\Week14Day02EFDemo\\Week14Day02EFDemo\\DBClassTrak\\Student.cs",
+              "RelativeToolTip": "Week14Day02EFDemo\\DBClassTrak\\Student.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T16:19:07.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class.cs",
+              "DocumentMoniker": "C:\\Users\\harsimrana\\source\\repos\\Week14Day02EFDemo\\Week14Day02EFDemo\\DBClassTrak\\Class.cs",
+              "RelativeDocumentMoniker": "Week14Day02EFDemo\\DBClassTrak\\Class.cs",
+              "ToolTip": "C:\\Users\\harsimrana\\source\\repos\\Week14Day02EFDemo\\Week14Day02EFDemo\\DBClassTrak\\Class.cs",
+              "RelativeToolTip": "Week14Day02EFDemo\\DBClassTrak\\Class.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T15:30:28.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Instructor.cs",
+              "DocumentMoniker": "C:\\Users\\harsimrana\\source\\repos\\Week14Day02EFDemo\\Week14Day02EFDemo\\DBClassTrak\\Instructor.cs",
+              "RelativeDocumentMoniker": "Week14Day02EFDemo\\DBClassTrak\\Instructor.cs",
+              "ToolTip": "C:\\Users\\harsimrana\\source\\repos\\Week14Day02EFDemo\\Week14Day02EFDemo\\DBClassTrak\\Instructor.cs",
+              "RelativeToolTip": "Week14Day02EFDemo\\DBClassTrak\\Instructor.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T15:29:59.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DemouserClasstrakContext.cs",
+              "DocumentMoniker": "C:\\Users\\harsimrana\\source\\repos\\Week14Day02EFDemo\\Week14Day02EFDemo\\DBClassTrak\\DemouserClasstrakContext.cs",
+              "RelativeDocumentMoniker": "Week14Day02EFDemo\\DBClassTrak\\DemouserClasstrakContext.cs",
+              "ToolTip": "C:\\Users\\harsimrana\\source\\repos\\Week14Day02EFDemo\\Week14Day02EFDemo\\DBClassTrak\\DemouserClasstrakContext.cs",
+              "RelativeToolTip": "Week14Day02EFDemo\\DBClassTrak\\DemouserClasstrakContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T15:29:29.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\harsimrana\\source\\repos\\Week14Day02EFDemo\\Week14Day02EFDemo\\Program.cs",
+              "RelativeDocumentMoniker": "Week14Day02EFDemo\\Program.cs",
+              "ToolTip": "C:\\Users\\harsimrana\\source\\repos\\Week14Day02EFDemo\\Week14Day02EFDemo\\Program.cs",
+              "RelativeToolTip": "Week14Day02EFDemo\\Program.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAqwDkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T15:14:08.574Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
