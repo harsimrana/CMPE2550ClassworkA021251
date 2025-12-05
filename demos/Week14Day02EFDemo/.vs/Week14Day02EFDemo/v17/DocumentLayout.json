@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{FCD403D6-4E73-40DC-870F-9D3FCD317713}|Week14Day02EFDemo\\Week14Day02EFDemo.csproj|solutionrelative:week14day02efdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCD403D6-4E73-40DC-870F-9D3FCD317713}|Week14Day02EFDemo\\Week14Day02EFDemo.csproj|c:\\users\\harsimrana\\source\\repos\\week14day02efdemo\\week14day02efdemo\\dbclasstrak\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCD403D6-4E73-40DC-870F-9D3FCD317713}|Week14Day02EFDemo\\Week14Day02EFDemo.csproj|solutionrelative:week14day02efdemo\\dbclasstrak\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FCD403D6-4E73-40DC-870F-9D3FCD317713}|Week14Day02EFDemo\\Week14Day02EFDemo.csproj|c:\\users\\harsimrana\\source\\repos\\week14day02efdemo\\week14day02efdemo\\dbclasstrak\\demouserclasstrakcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCD403D6-4E73-40DC-870F-9D3FCD317713}|Week14Day02EFDemo\\Week14Day02EFDemo.csproj|solutionrelative:week14day02efdemo\\dbclasstrak\\demouserclasstrakcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD403D6-4E73-40DC-870F-9D3FCD317713}|Week14Day02EFDemo\\Week14Day02EFDemo.csproj|c:\\users\\harsimrana\\source\\repos\\week14day02efdemo\\week14day02efdemo\\dbclasstrak\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD403D6-4E73-40DC-870F-9D3FCD317713}|Week14Day02EFDemo\\Week14Day02EFDemo.csproj|solutionrelative:week14day02efdemo\\dbclasstrak\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FCD403D6-4E73-40DC-870F-9D3FCD317713}|Week14Day02EFDemo\\Week14Day02EFDemo.csproj|c:\\users\\harsimrana\\source\\repos\\week14day02efdemo\\week14day02efdemo\\dbclasstrak\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,8 +33,12 @@
           "SelectedChildIndex": 5,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\harsimrana\\source\\repos\\Week14Day02EFDemo\\Week14Day02EFDemo\\DBClassTrak\\Student.cs",
               "RelativeDocumentMoniker": "Week14Day02EFDemo\\DBClassTrak\\Student.cs",
@@ -42,12 +46,7 @@
               "RelativeToolTip": "Week14Day02EFDemo\\DBClassTrak\\Student.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T16:19:07.166Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2025-12-03T16:19:07.166Z"
             },
             {
               "$type": "Document",
@@ -59,8 +58,7 @@
               "RelativeToolTip": "Week14Day02EFDemo\\DBClassTrak\\Class.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T15:30:28.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-03T15:30:28.57Z"
             },
             {
               "$type": "Document",
@@ -72,12 +70,11 @@
               "RelativeToolTip": "Week14Day02EFDemo\\DBClassTrak\\Instructor.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T15:29:59.066Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-03T15:29:59.066Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "DemouserClasstrakContext.cs",
               "DocumentMoniker": "C:\\Users\\harsimrana\\source\\repos\\Week14Day02EFDemo\\Week14Day02EFDemo\\DBClassTrak\\DemouserClasstrakContext.cs",
               "RelativeDocumentMoniker": "Week14Day02EFDemo\\DBClassTrak\\DemouserClasstrakContext.cs",
@@ -96,7 +93,7 @@
               "RelativeDocumentMoniker": "Week14Day02EFDemo\\Program.cs",
               "ToolTip": "C:\\Users\\harsimrana\\source\\repos\\Week14Day02EFDemo\\Week14Day02EFDemo\\Program.cs",
               "RelativeToolTip": "Week14Day02EFDemo\\Program.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAqwDkAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAYwH4AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-03T15:14:08.574Z",
               "EditorCaption": ""

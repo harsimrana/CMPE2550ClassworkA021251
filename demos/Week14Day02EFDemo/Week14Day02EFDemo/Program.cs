@@ -67,6 +67,90 @@ namespace Week14Day02EFDemo
 
             });
 
+            app.MapGet("/AddStudent", () =>
+            {
+                Console.WriteLine("Inside Add student part");
+
+                // Create an object of Student Class
+                Student newStudent = new Student();
+
+                // Populate the values for required properties
+                newStudent.FirstName = "Shane";
+                newStudent.LastName = "Kelemen";
+                newStudent.SchoolId = 12347;
+
+                try
+                {
+                    var db = new DemouserClasstrakContext();
+
+                    // using Add method you can add new object into the students list
+
+                    db.Students.Add(newStudent);
+
+                    // Save the changes in the DB
+                    db.SaveChanges(); // Commit
+
+                    return $"New student with id {newStudent.StudentId} is inserted successfully in the DB";
+                }
+                catch (Exception e)
+                {
+                    return "Error " + e.Message;
+                }
+
+            });
+
+            // Try to delete student 259 : change the id for testing
+            app.MapGet("/DeleteStudent/{sid}", (string sid ) =>
+            {
+                Console.WriteLine($"Inside Delete handler {sid}");
+
+                try
+                {
+                
+                    int id = int.Parse(sid);  // converting the value to int type
+
+                    var db = new DemouserClasstrakContext();
+
+                    // Try to delete Student from db
+
+                    if (db.Students.Find(id) is Student s)
+                    {  // we found a match it will return an object 
+                        
+                        // Remove that object from LIST Students
+
+                        db.Students.Remove(s);
+
+                        db.SaveChanges(); // Save the changes in the database as well
+
+                        return $" Student with id {id} has been removed";
+                        
+                        /*
+                        // For update part make changes in the object and then update it
+                        s.FirstName = "Simran";
+                        s.LastName = "Aulakh";
+
+                        db.Students.Update(s);
+
+                        db.SaveChanges();
+
+                        return $" Student with id {id} has been updated";
+                        */
+                    }
+                    else
+                    {
+                        return "No such student in the db make sure your student id is correct";
+                    }
+
+
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine("Error while performing delete operation" + e.Message);
+                    return "Error while performing delete operation " + e.Message;
+                }
+                    
+
+            });
             app.Run();
         }
     }
